@@ -16,15 +16,32 @@
         </div>
     </div>
 
-    <div class="list">
+  <div class="list">
         <img src="{{ asset('img/list.png') }}" class="icon" />
-        <a href="{{ route('employees.index') }}">Manage Employees</a>
+        <a href="{{ route('employees.index') }}">Data Karyawan</a>
     </div>
 
     <div class="list">
         <img src="{{ asset('img/list.png') }}" class="icon" />
-        <a href="{{ route('barang.index') }}">Manage Barang</a>
+        <a href="{{ route('barang.index') }}">Data Barang</a>
     </div>
+
+    <div class="list">
+        <img src="{{ asset('img/list.png') }}" class="icon" />
+        <a href="{{ route('peminjaman.index') }}">Laporan Peminjaman Barang</a>
+    </div>
+
+    <div class="list">
+        <img src="{{ asset('img/list.png') }}" class="icon" />
+        <a href="{{ route('pengajuan.index') }}">Pengajuan Peminjaman Barang</a>
+    </div>
+
+    <div class="list">
+        <img src="{{ asset('img/list.png') }}" class="icon" />
+        <a href="{{ route('perizinan.create') }}">Perizinan Barang</a>
+    </div>
+</div>
+
 </div>
 
 <div class="main">
@@ -59,3 +76,5 @@
     });
 </script>
 @endsection
+
+
